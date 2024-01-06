@@ -1,0 +1,19 @@
+{
+  "name": "@hpad/lock",
+  "version": "1.0.0",
+  "description": "An easy to use SDK which interacts with the HPad Lock API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hedera",
+    "hashgraph",
+    "hpad",
+    "token",
+    "lock",
+    "defi"
+  ],
+  "author": "jaycool",
+  "license": "ISC"
+}
