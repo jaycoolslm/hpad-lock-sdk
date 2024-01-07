@@ -1,5 +1,5 @@
-export { getApproveAllowanceTransaction } from "./transactions/approveAllowance";
-export { getLockTokenTransaction } from "./transactions/lockToken";
+export * from "./transactions/approveAllowance";
+export * from "./transactions/lockToken";
 
-export type { AllowanceApproveCallInput } from "./types/approveAllowance";
-export type { LockTokenCallInput } from "./types/lockToken";
+export type * from "./types/approveAllowance";
+export type * from "./types/lockToken";
