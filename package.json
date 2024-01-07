@@ -1,7 +1,7 @@
 {
   "name": "@hpad/lock",
   "type": "module",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "An easy to use SDK which interacts with the HPad Lock API",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
