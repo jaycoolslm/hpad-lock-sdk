@@ -1,5 +1,5 @@
 import { Transaction } from "@hashgraph/sdk";
-import { getLockTransactionBytes } from "../api/apiClient";
+import { getLockTransactionBytes } from "../api/apiClient.js";
 import type { LockTokenCallInput } from "../types/lockToken";
 
 export const getLockTokenTransaction = async (

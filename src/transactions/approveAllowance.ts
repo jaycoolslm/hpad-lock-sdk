@@ -1,5 +1,5 @@
 import { Transaction } from "@hashgraph/sdk";
-import { getApprovalTransactionBytes } from "../api/apiClient";
+import { getApprovalTransactionBytes } from "../api/apiClient.js";
 import type { AllowanceApproveCallInput } from "../types/approveAllowance";
 
 export const getApproveAllowanceTransaction = async (
