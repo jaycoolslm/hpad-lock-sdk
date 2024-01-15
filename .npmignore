@@ -2,3 +2,5 @@
 .env
 /*.tgz
 test_unpack
+test
+src

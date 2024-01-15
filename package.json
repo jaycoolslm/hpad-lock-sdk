@@ -1,12 +1,17 @@
 {
   "name": "@hpad/lock",
-  "type": "module",
   "version": "0.0.3",
   "description": "An easy to use SDK which interacts with the HPad Lock API",
-  "main": "./dist/index.js",
-  "types": "./dist/index.d.ts",
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/esm/index.js",
+  "types": "./dist/esm/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "tsc": "tsc -p tsconfig.json && tsc -p tsconfig-cjs.json",
+    "prepublishOnly": "npm run tsc"
   },
   "keywords": [
     "hedera",
